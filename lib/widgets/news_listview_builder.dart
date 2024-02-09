@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:news_app/models/articles_model.dart';
-import 'package:news_app/provider/provider_nameLanguage.dart';
+import 'package:news_app/provider/provider_name_language.dart';
 import 'package:news_app/viewmodel/viewmodel_news.dart';
 import 'package:news_app/widgets/news_tile_hive_listview.dart';
 import 'package:news_app/widgets/news_tile_listview.dart';
@@ -64,7 +64,7 @@ class _NewsListViewBuilderState extends State<NewsListViewBuilder> {
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             newsViewModel.news = snapshot.data;
-            return NewsTileListView();
+            return const NewsTileListView();
           } else if (snapshot.hasError) {
             return NewsTileHiveListView(
               newsBox: box,
