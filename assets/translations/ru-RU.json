@@ -1,0 +1,23 @@
+{
+    "Categoreis News" : "Категории Новости",
+    "Technology" : "Технологии",
+    "Sports" : "Виды спорта",
+    "Business" : "Бизнес",
+    "entertainment" : "развлечение",
+    "health" : "здоровье",
+    "Science" : "Наука",
+    "Dark Mode" : "Темный режим",
+    "Sharing" : "Совместное использование",
+    "About" : "О",
+    "Contact Us" : "Связаться с нами",
+    "Latest Version 1.0.0" : "Последняя версия 1.0.0",
+    "Search" : "Поиск",
+    "News" : "News",
+    "World" : "World",
+    "Setting" : "Параметр",
+    "Results about $searchName" : "Результаты о" ,
+    "Try search again" : "Попробуйте поискать еще раз",
+    "Sorry, There are'nt found any results about that" : "Извините, по этому поводу не найдено никаких результатов"
+
+    
+}
